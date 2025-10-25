@@ -9,6 +9,7 @@ import {
   onAuthStateChanged,
   GoogleAuthProvider,
   signInWithPopup,
+  sendPasswordResetEmail, // ✅ import this
 } from "firebase/auth";
 
 export const AuthContext = createContext();
@@ -44,7 +45,6 @@ const AuthProvider = ({ children }) => {
     if (!auth.currentUser) return Promise.reject("No user logged in");
     try {
       await updateProfile(auth.currentUser, data);
-      // update state with new user info
       setUser({ ...auth.currentUser });
       return Promise.resolve("Profile updated");
     } catch (error) {
@@ -58,6 +58,12 @@ const AuthProvider = ({ children }) => {
     return signOut(auth)
       .then(() => setUser(null))
       .finally(() => setLoading(false));
+  };
+
+  // ✅ Forgot password
+  const resetPassword = (email) => {
+    if (!email) return Promise.reject("Email is required");
+    return sendPasswordResetEmail(auth, email);
   };
 
   // ✅ Keep track of user state (Firebase observer)
@@ -80,6 +86,7 @@ const AuthProvider = ({ children }) => {
     signInWithGoogle,
     logOut,
     updateUser,
+    resetPassword, // ✅ add resetPassword to context
   };
 
   return (

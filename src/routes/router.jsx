@@ -7,7 +7,8 @@ import Plants from "../pages/Plants";
 import Profile from "../pages/Profile";
 import PlantDetails from "../pages/PlantDetails";
 import PrivateRoute from "../routes/PrivateRoute";
-import PlantOfTheWeek from "../pages/PlantOfTheWeek"
+import PlantOfTheWeek from "../pages/PlantOfTheWeek";
+import ForgotPassword from "../pages/ForgotPassword"; // ✅ import ForgotPassword
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "login", element: <Login /> },
       { path: "signup", element: <Signup /> },
+      { path: "forgot-password", element: <ForgotPassword /> }, // ✅ add this
       { path: "plants", element: <Plants /> },
       { path: "plant-of-the-week", element: <PlantOfTheWeek /> },
 

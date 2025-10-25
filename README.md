@@ -1,16 +1,35 @@
-# React + Vite
+# 🍃 GreenNest – Indoor Plant Care & Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-   🌱 GreenNest is an elegant single-page web application built for plant lovers who want to nurture and decorate their homes with healthy indoor plants. The platform allows users to explore plant care guides, buy plants, and book expert consultations — ensuring a greener and healthier living space during any season.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🔧 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **React.js** – Component-based architecture for a dynamic UI  
+-   **React Router** – Client-side routing for smooth navigation  
+-   **Tailwind CSS** – Utility-first styling for fast and responsive design  
+-   **Firebase** – Authentication and database for secure user management
+-   **LocalStorage API** – Persist app installation data locally  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🚀 Features
+
+-   **Responsive Design** – Works on mobile, tablet, and desktop.
+
+-   **Firebase Authentication** – Signup, Login, Google Sign-In, Forgot Password.
+
+-   **Plants Collection** – Fetch from JSON, view details, search & filter.
+
+-   **Protected Routes** – Profile and plant details accessible only when logged in.
+
+-   **User Profile** – Update name and photo in real-time.
+
+-   **Plant Details** – Full info with booking form for consultations.
+
+-   **Extras** – Top-rated “Plant of the Week,” care tips, and expert profiles.
+
+---

@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+@import "swiper/css/effect-fade";
+
+@plugin "daisyui/theme" {
+  name: "greenforest";
+  default: true; /* set as default */
+  prefersdark: false;
+  color-scheme: light;
+  
+  /* Base (backgrounds, text) — natural whites and light greens */
+  --color-base-100: oklch(98% 0.015 145);  /* very light green tint */
+  --color-base-200: oklch(94% 0.025 145);  /* soft green-gray */
+  --color-base-300: oklch(89% 0.04 145);   /* muted sage */
+  --color-base-content: oklch(28% 0.06 135); /* dark forest text */
+  
+  /* Primary (main brand green) — deep forest green */
+  --color-primary: oklch(48% 0.22 148);
+  --color-primary-content: oklch(98% 0.01 148);
+  
+  /* Secondary (highlight) — earthy moss accent */
+  --color-secondary: oklch(62% 0.18 142);
+  --color-secondary-content: oklch(98% 0.01 142);
+  
+  /* Accent (for buttons/links) — bright fresh leaf green */
+  --color-accent: oklch(72% 0.26 155);
+  --color-accent-content: oklch(25% 0.05 155);
+  
+  /* Neutral (cards, outlines, shadows) — warm gray with a hint of green */
+  --color-neutral: oklch(52% 0.08 138);
+  --color-neutral-content: oklch(98% 0.01 138);
+  
+  /* Info — clear sky blue */
+  --color-info: oklch(68% 0.19 230);
+  --color-info-content: oklch(98% 0.01 230);
+  
+  /* Success — soft moss green */
+  --color-success: oklch(64% 0.24 145);
+  --color-success-content: oklch(98% 0.01 145);
+  
+  /* Warning — golden sunlight yellow */
+  --color-warning: oklch(78% 0.24 88);
+  --color-warning-content: oklch(28% 0.05 88);
+  
+  /* Error — earthy red clay */
+  --color-error: oklch(56% 0.23 32);
+  --color-error-content: oklch(98% 0.01 32);
+  
+  /* Border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+  
+  /* Base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  
+  /* Border size */
+  --border: 1px;
+  
+  /* Effects */
+  --depth: 1;
+  --noise: 0;
+}
+
+
+* {
+    font-family: "Bricolage Grotesque", sans-serif;
+}

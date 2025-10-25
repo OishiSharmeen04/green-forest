@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Watering Schedule",
+    "description": "Most plants prefer consistent watering. Check soil moisture before watering."
+  },
+  {
+    "title": "Light Requirements",
+    "description": "Place plants according to their light needs - bright indirect for most tropicals."
+  },
+  {
+    "title": "Humidity Control",
+    "description": "Mist plants regularly or use a humidifier for tropical species."
+  },
+  {
+    "title": "Pruning Tips",
+    "description": "Remove dead leaves and trim overgrown stems to encourage new growth."
+  },
+  {
+    "title": "Fertilizing Guide",
+    "description": "Feed during growing season (spring/summer) with balanced fertilizer."
+  },
+  {
+    "title": "Pest Prevention",
+    "description": "Inspect regularly for pests and treat immediately with neem oil if needed."
+  }
+]

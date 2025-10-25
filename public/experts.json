@@ -1,0 +1,23 @@
+[
+  { 
+    "name": "Rafi Rahman", 
+    "specialty": "Indoor Plant Care", 
+    "img": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000",
+    "bio": "10+ years helping plants thrive indoors",
+    "expertise": ["Watering", "Light Management", "Pest Control"]
+  },
+  { 
+    "name": "Anika Sultana", 
+    "specialty": "Botanical Styling", 
+    "img": "https://img.freepik.com/free-photo/close-up-portrait-happy-beautiful-young-woman-clapping-looks-pleased-smiling-applause-you_1258-218753.jpg?semt=ais_hybrid&w=740&q=80",
+    "bio": "Creating beautiful green spaces",
+    "expertise": ["Interior Design", "Plant Selection", "Styling"]
+  },
+  { 
+    "name": "Tuhin Hasan", 
+    "specialty": "Soil & Fertilizer Expert", 
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ90ggq_Xx8fOzPxQAnnuQ8EtALhdIRP4Y9w&s",
+    "bio": "Master of plant nutrition and soil health",
+    "expertise": ["Soil Science", "Fertilization", "Composting"]
+  }
+]

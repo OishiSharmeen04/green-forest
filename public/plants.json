@@ -1,0 +1,116 @@
+[
+  {
+    "plantId": 1,
+    "title": "Snake Plant - Air Purifier",
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy plant that purifies indoor air and thrives in low light.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVX2HyD4P4IyQM_JtM8baUPIHCrhck_dqL0A&s",
+    "providerName": "UrbanGreen Studio",
+    "features": [
+      "NASA-approved air purifier",
+      "Survives in low light",
+      "Needs water once every 2 weeks",
+      "Nearly indestructible"
+    ]
+  },
+  {
+    "plantId": 2,
+    "title": "Peace Lily - Elegant Blooms",
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 22,
+    "rating": 4.7,
+    "availableStock": 15,
+    "careLevel": "Medium",
+    "description": "Elegant white blooms that brighten any room and help clean the air.",
+    "image": "https://cdn.mos.cms.futurecdn.net/qYNPupRnspGWPF4886Z7hB.jpg",
+    "providerName": "GreenLeaf Nursery",
+    "features": [
+      "Beautiful white flowers",
+      "Removes toxins from air",
+      "Thrives in shade",
+      "Tells you when it needs water"
+    ]
+  },
+  {
+    "plantId": 3,
+    "title": "Areca Palm - Indoor Tropical",
+    "plantName": "Areca Palm",
+    "category": "Tropical",
+    "price": 35,
+    "rating": 4.9,
+    "availableStock": 8,
+    "careLevel": "Medium",
+    "description": "Lush palm fronds perfect for indoor tropical vibes.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShlzR2DTfhspHQk8udnkahtpfvUCy078Omqg&s",
+    "providerName": "TropicHouse",
+    "features": [
+      "Natural humidifier",
+      "Fast-growing tropical beauty",
+      "Safe for pets",
+      "Creates vacation vibes"
+    ]
+  },
+  {
+    "plantId": 4,
+    "title": "Monstera Deliciosa - Swiss Cheese Plant",
+    "plantName": "Monstera Deliciosa",
+    "category": "Tropical",
+    "price": 45,
+    "rating": 4.9,
+    "availableStock": 5,
+    "careLevel": "Medium",
+    "description": "Iconic Swiss Cheese Plant with striking split leaves.",
+    "image": "https://thepalmssydney.com.au/cdn/shop/files/TPNursery-300.jpg?v=1707110373",
+    "providerName": "UrbanGreen Studio",
+    "features": [
+      "Instagram-famous plant",
+      "Large dramatic leaves",
+      "Easy to propagate",
+      "Grows quickly indoors"
+    ]
+  },
+  {
+    "plantId": 5,
+    "title": "Fiddle Leaf Fig - Statement Plant",
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Statement Plant",
+    "price": 50,
+    "rating": 4.6,
+    "availableStock": 6,
+    "careLevel": "Hard",
+    "description": "Large glossy leaves make it a dramatic indoor plant.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOaIUItPciGHEoZetPU_gex3nWKeQDt8fdAg&s",
+    "providerName": "GreenLeaf Nursery",
+    "features": [
+      "Designer's favorite",
+      "Sculptural statement piece",
+      "Large glossy foliage",
+      "Grows up to 6 feet indoors"
+    ]
+  },
+  {
+    "plantId": 6,
+    "title": "ZZ Plant - Low Light Champion",
+    "plantName": "ZZ Plant",
+    "category": "Low Light",
+    "price": 25,
+    "rating": 4.8,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "Tough and low-maintenance, ideal for beginner plant lovers.",
+    "image": "https://glasswingshop.com/cdn/shop/products/8D2A2067.jpg?v=1595400475&width=533",
+    "providerName": "TropicHouse",
+    "features": [
+      "Drought-tolerant superstar",
+      "Perfect for offices",
+      "Waxy shiny leaves",
+      "Thrives on neglect"
+    ]
+  }
+]

@@ -34,6 +34,10 @@ const Login = () => {
       });
   };
 
+  const handleForgotPassword = () => {
+    window.open('https://mail.google.com/', '_blank');
+  };
+
   const handleGoogleLogin = () => {
     signInWithGoogle()
       .then((result) => {
@@ -98,7 +102,7 @@ const Login = () => {
             </div>
             <label className="label">
               <Link
-                to="/forgot-password"
+                onClick={handleForgotPassword}
                 className="label-text-alt link link-hover text-primary"
               >
                 Forgot password?

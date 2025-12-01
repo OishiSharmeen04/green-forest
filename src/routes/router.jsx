@@ -8,11 +8,13 @@ import Profile from "../pages/Profile";
 import PlantDetails from "../pages/PlantDetails";
 import PrivateRoute from "../routes/PrivateRoute";
 import PlantOfTheWeek from "../pages/PlantOfTheWeek";
+import ErrorPage from "../pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <Home /> },
       { path: "login", element: <Login /> },

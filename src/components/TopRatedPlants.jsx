@@ -2,6 +2,7 @@ import { useEffect, useState, useContext } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import Spinner from "../components/LoadingSpinner";
 
 export default function TopRatedPlants() {
   const [plants, setPlants] = useState([]);
@@ -33,7 +34,7 @@ export default function TopRatedPlants() {
 
       {plants.length === 0 ? (
         <div className="flex justify-center">
-          <span className="loading loading-spinner loading-lg text-primary"></span>
+          <Spinner />
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

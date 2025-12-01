@@ -12,12 +12,7 @@ const PlantDetails = () => {
   const [plant, setPlant] = useState(null);
   const [formData, setFormData] = useState({ name: "", email: "" });
 
-  useEffect(() => {
-    if (!loading && !user) {
-      navigate("/login", { state: { from: `/plants/${id}` } });
-    }
-  }, [loading, user, navigate, id]);
-
+  // Remove the redirect logic - let anyone view this page
   useEffect(() => {
     fetch("/plants.json")
       .then((res) => res.json())
@@ -42,6 +37,19 @@ const PlantDetails = () => {
 
   const handleBooking = (e) => {
     e.preventDefault();
+    
+    // Check if user is logged in
+    if (!user) {
+      toast.warning("🌿 Please login to book a consultation!", {
+        position: "top-right",
+        autoClose: 3000,
+      });
+      // Redirect to login with current page as return path
+      navigate("/login", { state: { from: `/plants/${id}` } });
+      return;
+    }
+
+    // If logged in, proceed with booking
     toast.success(`🌿 Consultation booked for ${formData.name}!`, {
       position: "top-right",
       autoClose: 3000,
@@ -108,6 +116,16 @@ const PlantDetails = () => {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Book Consultation
               </h2>
+              
+              {/* Show login message if not logged in */}
+              {!user && (
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+                  <p className="text-yellow-800 text-sm">
+                    🔒 Please login to book a consultation
+                  </p>
+                </div>
+              )}
+
               <form onSubmit={handleBooking} className="space-y-4">
                 <div>
                   <label className="block text-gray-700 font-medium mb-1">

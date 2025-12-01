@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../provider/AuthProvider";
-import { toast } from "react-toastify";
+import Spinner from "../components/LoadingSpinner";
 
 const Plants = () => {
   const [plants, setPlants] = useState([]);
@@ -14,14 +14,15 @@ const Plants = () => {
       .then((data) => setPlants(data));
   }, []);
 
-  const handleViewDetails = (plantId) => {
-    if (user) {
-      navigate(`/plants/${plantId}`);
-    } else {
-      toast.info("Please login to view details 🔒");
-      navigate("/login");
-    }
-  };
+
+  if (!plants || plants.length === 0) {
+    return (
+      <div className="w-full h-[60vh] flex items-center justify-center">
+        <Spinner />
+      </div>
+    );
+  }
+
 
   return (
     <div className="max-w-6xl mx-auto py-10 px-4">
@@ -51,7 +52,7 @@ const Plants = () => {
                 <div className="card-actions justify-end mt-3">
                   <button
                     className="btn btn-sm btn-outline btn-success"
-                    onClick={() => handleViewDetails(plant.plantId)}
+                    onClick={() => navigate(`/plants/${plant.plantId}`)}
                   >
                     View Details
                   </button>

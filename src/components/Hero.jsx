@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Spinner from "../components/LoadingSpinner";
 
 export default function Hero() {
   const [plants, setPlants] = useState([]);
@@ -25,7 +26,7 @@ export default function Hero() {
   if (!plants || plants.length === 0) {
     return (
       <div className="w-full h-[60vh] flex items-center justify-center">
-        Loading slides...
+        <Spinner />
       </div>
     );
   }

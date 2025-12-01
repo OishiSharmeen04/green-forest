@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Spinner from "../components/LoadingSpinner";
 
 const PlantOfTheWeek = () => {
   const [featuredPlant, setFeaturedPlant] = useState(null);
@@ -24,7 +25,7 @@ const PlantOfTheWeek = () => {
     fetchPlants();
   }, []);
 
-  if (!featuredPlant) return <p>Loading...</p>;
+  if (!featuredPlant) return <Spinner />;
 
   return (
     <section className="py-20 px-6 bg-linear-to-br from-green-50 via-emerald-50 to-lime-50">

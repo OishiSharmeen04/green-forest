@@ -19,6 +19,7 @@ const router = createBrowserRouter([
       { path: "signup", element: <Signup /> },
       { path: "plants", element: <Plants /> },
       { path: "plant-of-the-week", element: <PlantOfTheWeek /> },
+      { path: "plants/:id", element: <PlantDetails /> },
 
       // Protected Routes
       {
@@ -26,14 +27,6 @@ const router = createBrowserRouter([
         element: (
           <PrivateRoute>
             <Profile />
-          </PrivateRoute>
-        ),
-      },
-      {
-        path: "plants/:id",
-        element: (
-          <PrivateRoute>
-            <PlantDetails />
           </PrivateRoute>
         ),
       },

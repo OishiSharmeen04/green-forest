@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import logo from "../../public/logo.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -39,10 +40,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-3 mb-4 group">
-              <div className="text-5xl">🌱</div>
+            <Link to="/" className="flex items-center gap-1 mb-4 group">
+              <img src={logo} alt="GreenNest Logo" className="w-10 h-10" />
               <div>
-                <span className="text-3xl font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent">
+                <span className="text-xl font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent">
                   GreenNest
                 </span>
                 <p className="text-sm text-base-content/60">Plant Paradise</p>

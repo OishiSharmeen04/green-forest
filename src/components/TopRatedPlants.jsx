@@ -19,14 +19,6 @@ export default function TopRatedPlants() {
       });
   }, []);
 
-  const handleViewDetails = (plantId) => {
-    if (!user) {
-      toast.info("Please log in to view plant details!");
-      navigate("/login");
-    } else {
-      navigate(`/plants/${plantId}`);
-    }
-  };
 
   return (
     <section className="py-20 px-6 bg-linear-to-b from-base-100 to-base-200">
@@ -70,7 +62,7 @@ export default function TopRatedPlants() {
 
                 <div className="card-actions mt-4">
                   <button
-                    onClick={() => handleViewDetails(plant.plantId)}
+                    onClick={() => navigate(`/plants/${plant.plantId}`)}
                     className="btn btn-primary btn-block"
                   >
                     View Details →

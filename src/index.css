@@ -1,12 +1,19 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes gradientFlow {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 
-@import "swiper/css";
-@import "swiper/css/pagination";
-@import "swiper/css/navigation";
-@import "swiper/css/effect-fade";
+
 
 @plugin "daisyui/theme" {
   name: "greenforest";
@@ -72,4 +79,13 @@
 
 * {
     font-family: "Gabriela", serif;
+}
+
+.animated-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 5s ease infinite;
+}
+.gradient-flow {
+  background-size: 200% 100%;
+  animation: gradientFlow 3s linear infinite;
 }

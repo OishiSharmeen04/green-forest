@@ -47,7 +47,7 @@ export default function EcoDecorIdeas() {
               </p>
 
               {/* Decorative progress bar */}
-              <div className="h-1 bg-linear-to-r from-primary via-secondary to-accent rounded-full mt-3" />
+              <div className="h-1 bg-linear-to-r from-primary via-secondary to-accent rounded-full mt-3 gradient-flow" />
             </div>
           </div>
         ))}

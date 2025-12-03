@@ -47,7 +47,7 @@ export default function Hero() {
           className="absolute inset-0 w-full h-full"
         >
           {/* Background image with gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60 z-10"></div>
+          <div className="absolute inset-0 bg-linear-to-b from-black/40 via-black/30 to-black/60 z-10"></div>
           <img
             src={currentPlant.image}
             alt={currentPlant.plantName}
@@ -89,7 +89,7 @@ export default function Hero() {
               >
                 <Link
                   to={`/plants/${currentPlant.plantId}`}
-                  className="btn btn-primary btn-sm sm:btn-md lg:btn-lg gap-2 w-full sm:w-auto sm:min-w-[160px] lg:min-w-[180px] shadow-xl hover:scale-105 transition-transform"
+                  className="btn btn-primary btn-sm sm:btn-md lg:btn-lg gap-2 w-full sm:w-auto sm:min-w-40 lg:min-w-[180px] shadow-xl hover:scale-105 transition-transform"
                 >
                   <span className="text-sm sm:text-base">View Details</span>
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -98,7 +98,7 @@ export default function Hero() {
                 </Link>
                 <Link
                   to="/plants"
-                  className="btn btn-outline btn-sm sm:btn-md lg:btn-lg gap-2 w-full sm:w-auto sm:min-w-[160px] lg:min-w-[180px] text-white border-white hover:bg-white hover:text-green-600 shadow-xl"
+                  className="btn btn-outline btn-sm sm:btn-md lg:btn-lg gap-2 w-full sm:w-auto sm:min-w-40 lg:min-w-[180px] text-white border-white hover:bg-white hover:text-green-600 shadow-xl"
                 >
                   <span className="text-sm sm:text-base">Browse All Plants</span>
                 </Link>

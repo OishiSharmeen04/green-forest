@@ -9,6 +9,8 @@ import PlantDetails from "../pages/PlantDetails";
 import PrivateRoute from "../routes/PrivateRoute";
 import PlantOfTheWeek from "../pages/PlantOfTheWeek";
 import ErrorPage from "../pages/ErrorPage";
+import Blog from "../pages/Blog";
+import BlogDetails from "../pages/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,8 @@ const router = createBrowserRouter([
       { path: "plants", element: <Plants /> },
       { path: "plant-of-the-week", element: <PlantOfTheWeek /> },
       { path: "plants/:id", element: <PlantDetails /> },
+      { path: "blog", element: <Blog /> },
+      { path: "blog/:id", element: <BlogDetails />},
 
       // Protected Routes
       {
@@ -37,3 +41,4 @@ const router = createBrowserRouter([
 ]);
 
 export default router;
+

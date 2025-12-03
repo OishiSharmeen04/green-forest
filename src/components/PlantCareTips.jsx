@@ -37,7 +37,7 @@ export default function PlantCareTips() {
               </p>
 
               {/* Decorative line */}
-              <div className="h-1 bg-linear-to-r from-primary via-secondary to-accent rounded-full mt-4" />
+              <div className="h-1 bg-linear-to-r from-primary via-secondary to-accent rounded-full mt-4 gradient-flow" />
             </div>
           </div>
         ))}

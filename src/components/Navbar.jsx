@@ -24,6 +24,7 @@ export default function Navbar() {
     { path: "/", label: "Home" },
     { path: "/plants", label: "Plants" },
     { path: "/plant-of-the-week", label: "Plant of the Week" },
+    { path: "/blog", label: "Blog" },
     ...(user ? [{ path: "/profile", label: "Profile" }] : [])
   ];
 
@@ -68,11 +69,11 @@ export default function Navbar() {
         <div className="hidden lg:flex gap-3">
           {user ? (
             <div className="dropdown dropdown-end">
-              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <label tabIndex={0} className="btn btn-ghost btn-circle avatar tooltip tooltip-bottom" data-tip={user?.displayName || "User"}>
+                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
                   <img
                     src={user?.photoURL || profileDefault}
-                    alt="User"
+                    alt={user?.displayName || "User"}
                   />
                 </div>
               </label>
@@ -130,7 +131,7 @@ export default function Navbar() {
           </button>
 
           {isOpen && (
-            <ul className="absolute right-0 mt-3 z-[100] p-3 shadow-xl bg-base-100 rounded-box w-56 border border-primary/10">
+            <ul className="absolute right-0 mt-3 z-100 p-3 shadow-xl bg-base-100 rounded-box w-56 border border-primary/10">
               {navLinks.map((link, i) => (
                 <li key={i}>
                   <NavLink

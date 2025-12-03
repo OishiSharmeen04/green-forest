@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "10 Easy-Care Indoor Plants for Beginners",
+    "excerpt": "Starting your indoor garden journey? Discover the most forgiving plants that thrive with minimal care and brighten up any space.",
+    "category": "Care Tips",
+    "image": "https://images.unsplash.com/photo-1463320726281-696a485928c7?w=800",
+    "author": "Sarah Green",
+    "date": "Dec 1, 2024",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "title": "Transform Your Living Room with Plant Decor",
+    "excerpt": "Learn how to use plants as stunning decorative elements that bring life and freshness to your living spaces.",
+    "category": "Decorative Ideas",
+    "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800",
+    "author": "Mike Johnson",
+    "date": "Nov 28, 2024",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 3,
+    "title": "Watering Schedule: The Complete Guide",
+    "excerpt": "Master the art of watering your plants. Too much or too little can harm your green friends. Find the perfect balance.",
+    "category": "Care Tips",
+    "image": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=800",
+    "author": "Emma Wilson",
+    "date": "Nov 25, 2024",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 4,
+    "title": "Creating a Vertical Garden in Small Spaces",
+    "excerpt": "Don't let limited space stop you! Discover creative ways to grow vertically and maximize your green area.",
+    "category": "Decorative Ideas",
+    "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=800",
+    "author": "David Chen",
+    "date": "Nov 22, 2024",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 5,
+    "title": "Natural Pest Control for Houseplants",
+    "excerpt": "Say goodbye to chemical pesticides. Learn organic methods to keep your plants healthy and pest-free.",
+    "category": "Care Tips",
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800",
+    "author": "Lisa Anderson",
+    "date": "Nov 20, 2024",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 6,
+    "title": "Boho Plant Corner Ideas for Your Bedroom",
+    "excerpt": "Create a cozy bohemian retreat with carefully selected plants and natural decor elements.",
+    "category": "Decorative Ideas",
+    "image": "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=800",
+    "author": "Sophie Martinez",
+    "date": "Nov 18, 2024",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 7,
+    "title": "Understanding Plant Light Requirements",
+    "excerpt": "Not all plants need the same amount of light. Learn to identify and meet your plants' lighting needs.",
+    "category": "Care Tips",
+    "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=800",
+    "author": "James Taylor",
+    "date": "Nov 15, 2024",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 8,
+    "title": "Minimalist Plant Styling for Modern Homes",
+    "excerpt": "Embrace simplicity with clean lines and carefully chosen plants that complement modern interior design.",
+    "category": "Decorative Ideas",
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800",
+    "author": "Rachel Kim",
+    "date": "Nov 12, 2024",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 9,
+    "title": "Propagating Your Plants: A Step-by-Step Guide",
+    "excerpt": "Multiply your plant collection for free! Learn the secrets of successful plant propagation.",
+    "category": "Care Tips",
+    "image": "https://images.unsplash.com/photo-1591958911259-bee2173bdccc?w=800",
+    "author": "Tom Harris",
+    "date": "Nov 10, 2024",
+    "readTime": "9 min read"
+  },
+  {
+    "id": 10,
+    "title": "Bathroom Plants That Love Humidity",
+    "excerpt": "Transform your bathroom into a spa-like oasis with plants that thrive in humid environments.",
+    "category": "Decorative Ideas",
+    "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800",
+    "author": "Anna Lee",
+    "date": "Nov 8, 2024",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 11,
+    "title": "Seasonal Plant Care: Winter Edition",
+    "excerpt": "Keep your plants healthy during the cold months with these essential winter care tips.",
+    "category": "Care Tips",
+    "image": "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?w=800",
+    "author": "Robert White",
+    "date": "Nov 5, 2024",
+    "readTime": "7 min read"
+  },
+  {
+    "id": 12,
+    "title": "Hanging Plant Ideas for Every Room",
+    "excerpt": "Elevate your decor literally! Explore creative ways to display hanging plants throughout your home.",
+    "category": "Decorative Ideas",
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800",
+    "author": "Julia Brown",
+    "date": "Nov 3, 2024",
+    "readTime": "6 min read"
+  }
+]

@@ -1,13 +1,11 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../provider/AuthProvider";
 import Spinner from "../components/LoadingSpinner";
 
 const Plants = () => {
   const [plants, setPlants] = useState([]);
   const [sortOrder, setSortOrder] = useState("");
   const [filterCategory, setFilterCategory] = useState("");
-  const { user } = useContext(AuthContext);
   const navigate = useNavigate();
 
   useEffect(() => {

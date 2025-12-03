@@ -1,23 +1,44 @@
 [
   { 
-    "name": "Rafi Rahman", 
+    "name": "Ethan Miller", 
     "specialty": "Indoor Plant Care", 
     "img": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000",
-    "bio": "10+ years helping plants thrive indoors",
+    "bio": "Helping indoor plants thrive effortlessly",
     "expertise": ["Watering", "Light Management", "Pest Control"]
   },
   { 
-    "name": "Anika Sultana", 
+    "name": "Sophie Turner", 
     "specialty": "Botanical Styling", 
     "img": "https://img.freepik.com/free-photo/close-up-portrait-happy-beautiful-young-woman-clapping-looks-pleased-smiling-applause-you_1258-218753.jpg?semt=ais_hybrid&w=740&q=80",
-    "bio": "Creating beautiful green spaces",
+    "bio": "Designing naturally elegant green spaces",
     "expertise": ["Interior Design", "Plant Selection", "Styling"]
   },
   { 
-    "name": "Tuhin Hasan", 
+    "name": "Oliver Bennett", 
     "specialty": "Soil & Fertilizer Expert", 
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ90ggq_Xx8fOzPxQAnnuQ8EtALhdIRP4Y9w&s",
-    "bio": "Master of plant nutrition and soil health",
+    "bio": "Improving soil health for growth",
     "expertise": ["Soil Science", "Fertilization", "Composting"]
+  },
+  {
+    "name": "Grace Thompson",
+    "specialty": "Outdoor Landscaping",
+    "img": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+    "bio": "Crafting vibrant outdoor garden designs",
+    "expertise": ["Landscaping", "Seasonal", "Planning"]
+  },
+  {
+    "name": "Daniel Harris",
+    "specialty": "Plant Disease Specialist",
+    "img": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
+    "bio": "Diagnosing and preventing plant diseases",
+    "expertise": ["Diagnosis", "Fungal Treatment", "Prevention"]
+  },
+  {
+    "name": "Charlotte Evans",
+    "specialty": "Succulent & Cactus Expert",
+    "img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+    "bio": "Guiding stress-free succulent care",
+    "expertise": ["Succulent Care", "Cactus Maintenance", "Propagation"]
   }
 ]

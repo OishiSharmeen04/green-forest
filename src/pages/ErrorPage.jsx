@@ -9,7 +9,7 @@ const ErrorPage = () => {
   }, [navigate]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-linear-to-br from-green-50 via-white to-green-100 flex items-center justify-center px-4">
       <div className="max-w-2xl w-full text-center space-y-8">
         {/* Animated Plant Illustration */}
         <div className="relative">
